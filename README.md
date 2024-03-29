@@ -1,2 +1,3 @@
-# pditabira
-Repositório de atividades do Projeto Desenvolve
+Projeto Desenvolve Itabira
+Programação Básica de Web
+PDITA 090
