@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/formulario.ico" type="image/x-icon">
+    <title>Pesquisa de Satisfação</title>
+</head>
+<body>
+    <header>
+        <h1>Pesquisa de Satisfação</h1>
+    </header>
+    <main>
+        <form action="pesquisa-satisfacao.csv" method="post">
+            <section>
+                <h2>Dados Pessoais</h2>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                </p>
+                <p>
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" id="tel" name="tel" required placeholder="Digite seu telefone de contato">
+                </p>
+            </section>
+            <section>
+                <h2>Pesquisa</h2>
+                <p>
+                    <label for="origem">Como você ficou sabendo da plataforma?</label>
+                    <select name="origem" id="origem" required>
+                        <option value="Google">Google</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="X">X</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="satisfacao">O quanto você está satisfeito com o conteúdo da plataforma?</label>
+                    <input type="radio" id="pouco" name="satisfacao">
+                    <label for="pouco">Pouco Satisfeito</label>
+                    <input type="radio" id="satisfeito" name="satisfacao">
+                    <label for="satisfeito">Satisfeito</label>
+                    <input type="radio" id="muito" name="satisfacao">
+                    <label for="muito">Muito Satisfeito</label>
+                </p>
+                <p>
+                    <label for="indicacao">Você indicaria o conteúdo desta plataforma?</label>
+                    <input type="radio" id="sim" name="indicacao">
+                    <label for="sim">Sim</label>
+                    <input type="radio" id="nao" name="indicacao">
+                    <label for="nao">Não</label>
+                </p>
+            </section>
+            <p>
+                <input type="checkbox" id="declaracao" name="declaracao" required>
+                <label for="declaracao">Autorizo compartilhar minhas respostas.</label>
+            </p>
+            <p>
+                <input type="submit" value="Enviar Pesquisa">
+            </p>
+        </form>
+    </main>
+</body>
+</html>
