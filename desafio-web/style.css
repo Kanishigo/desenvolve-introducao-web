@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #004b797c;
+    padding: 1.2rem 0
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+    list-style: none;
+}
+
+.menu li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover{
+    color: #FF7714;
+}
+
+.conteudo{
+    margin: 48px 0px;
+}
+
+#principal{
+    margin: 0px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto-principal{
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-pagina{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+#nome-empresa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    padding-top: 48px;
+}
+
+#slogan-empresa{
+    font-size: 28px;
+    color: #ff7614e7;
+}
+
+.botoes{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+#botao-login{
+    background-color: #ff7614e7;
+    font-size: 22px;
+    color:#004A79;
+    border: none;
+    border-radius: 15px;
+    width:230px;
+    height: 48px;
+}
+
+#botao-cadastro{
+    background-color: #ff7614e7;
+    color:#004A79;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+    width:230px;
+    height: 48px;
+}
+
+#quem-somos{
+    background-color: #004A79;
+    padding-top: 12px;
+    padding-bottom: 48px;
+    margin-top: 32px;
+}
+
+.quem-somos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#titulo-quem-somos{
+    color: aliceblue;
+    font-size: 36px;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+#historia{
+    color: aliceblue;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: justify;
+    width: 40%;
+}
+
+#video-institucional{
+    width: 40%;
+}
+
+#solucao{
+    background-color: #ff7614e7;
+    padding-bottom: 50px;
+}
+
+#solucao h2{
+    font-size: 36px;
+    color: aliceblue;
+    padding-left:  1.5rem;
+    padding-top: 1.5rem;
+    margin-left: 5rem;
+}
+
+#solucao p{
+    display: flex;
+    justify-content: center;
+}
+
+#profissionais{
+    background-color: #004A79;
+    padding-top: 12px;
+    padding-bottom: 48px;
+}
+
+#profissionais h2{
+    color: aliceblue;
+    font-size: 36px;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+#carouselExampleAutoplaying p {
+    display: flex;
+    justify-content: center;
+}
+
+#depoimentos{
+    background-color: #ff7614e7;
+    padding-top: 12px;
+    padding-bottom: 48px;
+}
+
+#depoimentos h2{
+    color: aliceblue;
+    font-size: 36px;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+#carouselExampleAutoplaying1 p {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 48px;
+    margin-bottom: 48px;
+}
+
+#redes-sociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+    list-style: none;
+}
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.autor{
+    text-align: center;
+
+}
