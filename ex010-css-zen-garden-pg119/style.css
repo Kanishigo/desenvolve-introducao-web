@@ -1,0 +1,93 @@
+/* 
+background: #D9D9D9 
+texto: #401722
+destaque: #010E26 
+*/
+
+html{
+    background-color: #D9D9D9;
+    color: #401722;
+
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#css-zen-garden p{
+    text-indent: 1em;
+}
+
+#css-zen-garden h1, h2, h3{
+    text-align: center;
+}
+
+#css-zen-garden h1{
+    font-size: 1.8rem;
+}   
+
+#css-zen-garden h2{
+    font-size: 1.4rem;
+}
+
+#css-zen-garden h3{
+    font-size: 1.2rem;
+}
+
+.summary{
+    text-align: right;
+}
+
+.main p{
+    line-height: 1.5;
+}
+
+.page-wrapper abbr{
+    font-variant: small-caps;
+}
+
+.page-wrapper{
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.intro{
+    height: 550px;
+}
+
+.design-archives{
+    display: none;
+}
+
+.intro header{
+    background-color: #401722;
+    color:#D9D9D9;
+}
+
+.intro header h1, h2{
+    display: inline-block;
+}
+
+.intro h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.sidebar ul{
+    list-style: none;
+    margin: auto;
+}
+
+.sidebar li{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+footer{
+    margin: 4%;
+}
+
+footer a{
+    display: inline-block;
+    border: #401722 solid 2px;
+    padding: 0.5em;
+}
