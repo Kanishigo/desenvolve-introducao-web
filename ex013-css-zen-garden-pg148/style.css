@@ -1,0 +1,185 @@
+/* 
+background: #D9D9D9 
+texto: #401722
+destaque: #010E26 
+*/
+
+html{
+    background-color: #D9D9D9;
+    color: #401722;
+
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#css-zen-garden p{
+    text-indent: 1em;
+}
+
+#css-zen-garden h1, h2, h3{
+    text-align: center;
+}
+
+#css-zen-garden h1{
+    font-size: 1.8rem;
+}   
+
+#css-zen-garden h2{
+    font-size: 1.4rem;
+}
+
+#css-zen-garden h3{
+    font-size: 1.2rem;
+}
+
+.summary{
+    text-align: right;
+}
+
+.main p{
+    line-height: 1.5;
+}
+
+.page-wrapper abbr{
+    font-variant: small-caps;
+}
+
+.page-wrapper{
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.intro{
+    height: 550px;
+}
+
+.design-archives{
+    display: none;
+}
+
+.intro header{
+    background-color: #401722;
+    color:#D9D9D9;
+}
+
+.intro header h1, h2{
+    display: inline-block;
+}
+
+.intro h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.sidebar ul{
+    list-style: none;
+    margin: auto;
+}
+
+.sidebar li{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+footer{
+    margin: 4%;
+}
+
+footer a{
+    display: inline-block;
+    border: #401722 solid 2px;
+    padding: 0.5em;
+}
+
+.page-wrapper{
+    position: relative;
+}
+
+.explanation{
+    width: 60%;
+    margin-right: 35%;
+    border-right: #1f295c solid 1px;
+    padding-right: 2%;
+    margin-bottom: 10%;
+}
+
+.design-selection{
+    position: absolute;
+    top: 550px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+a{
+    color: #010E26;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #2d70ee;
+}
+
+a:visited{
+    font-weight: normal;
+}
+
+.main p:first-of-type:first-letter{
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.design-selection li{
+    border-top: #1f295c solid 1px;
+}
+
+.design-selection li:last-child{
+    border-bottom: #1f295c solid 1px;
+    padding-bottom: 5%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 50px;
+    flex-wrap: wrap;
+}
+
+.benefits{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: #1f295c solid 1px;
+    border-top: #1f295c solid 1px;
+}
+
+.benefits p{
+    width: 70%;
+}
+
+.benefits h3{
+    order: 2;
+    width: 30%;
+}
+
+.participation p{
+    
+}
+
+.participation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: #1f295c solid 1px;
+}
+
+.participation p, h3{
+    flex-basis: 50%;
+}
+
+.participation h3{
+    align-self: center;
+}
